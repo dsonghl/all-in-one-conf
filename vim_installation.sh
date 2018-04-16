@@ -7,3 +7,5 @@ cd ~/.vim/bundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/vundle
 
 cp vimrc ~/.vimrc
+cp tmux.conf ~/.tmux.conf
+cp zshrc ~/.zshrc

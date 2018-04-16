@@ -3,20 +3,20 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
 " let vundle manage vundle
-" Plugin 'gmarik/vundle'
 Plugin 'VundleVim/Vundle.vim'
 
 " list all plugins that you'd like to install here
-Plugin 'kien/ctrlp.vim' " fuzzy find files
+Plugin 'ctrlpvim/ctrlp.vim' " fuzzy find files
 Plugin 'scrooloose/nerdtree' " file drawer, open with :NERDTreeToggle
 Plugin 'benmills/vimux'
 Plugin 'tpope/vim-fugitive' " the ultimate git helper
 Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in visual mode
 Plugin 'vim-airline/vim-airline' " status line
+Plugin 'ryanoasis/vim-devicons' " adds icons to your plugins
 
 call vundle#end()
 filetype plugin indent on
@@ -73,6 +73,9 @@ let base16colorspace=256  " Access colors present in 256 colorspace"
 set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors"
 set background=dark
 colorscheme delek
+
+" vim-devicons settings
+let g:airline_powerline_fonts = 1
 
 " toggling between number mode start
 :set number relativenumber
