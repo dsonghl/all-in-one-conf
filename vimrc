@@ -17,6 +17,7 @@ Plugin 'tpope/vim-fugitive' " the ultimate git helper
 Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in visual mode
 Plugin 'vim-airline/vim-airline' " status line
 Plugin 'ryanoasis/vim-devicons' " adds icons to your plugins
+Plugin 'fatih/vim-go' " vim-go
 
 call vundle#end()
 filetype plugin indent on
